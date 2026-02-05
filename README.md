@@ -38,10 +38,10 @@ $ sudo apt install xterm
 
 
 ## TODO
-[ ] Add statistics
-[ ] Add bounds checking
-[ ] Style changes
-[ ] Add correctness checking
-[ ] Add time measure
-[ ] Add support to non in-place sorting algorithms
-[ ] Add options to the user
+- [ ] Add statistics
+- [ ] Add bounds checking
+- [ ] Style changes
+- [ ] Add correctness checking
+- [ ] Add time measure
+- [ ] Add support to non in-place sorting algorithms
+- [ ] Add options to the user
