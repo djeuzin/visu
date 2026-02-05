@@ -13,7 +13,7 @@ void my_sorting_function(int* array_to_sort, int array_length);
 
 Visu requires your sorting function to swap values in the array with the function ```swap(int* array, int a, int b)``` to swap the value in index ```a``` with the value in index ```b```.
 
-With your sorting function done simply call the function with the function:
+With your sorting function done, simply call the visu function with your sorting function as the first argument and a string containing the name of your sorting function:
 
 ```C
 visu(my_sorting_function, "Name of my sorting function");
