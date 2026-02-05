@@ -4,7 +4,14 @@ Visu is a simple library to visualize sorting algorithms in C directly on the te
 
 ## Usage
 
-Currently, visu supports visualization for in-place sorting algorithms. To use define your sorting function as follows:
+Currently, visu supports visualization for in-place sorting algorithms. Copy the files in ```src``` to your local folder and include the library: 
+
+```C
+#include "visu.h"
+
+```
+
+To use define your sorting function as follows:
 
 ```C
 void my_sorting_function(int* array_to_sort, int array_length);
@@ -36,6 +43,13 @@ $ sudo apt install xterm
 % brew install xterm
 ```
 
+## Compiling
+
+Visu is intended to be used by graduate students taking classes in DSA. Compiling can be done simply with the command: 
+
+```
+% gcc main.c visu.c -o main
+```
 
 ## TODO
 - [ ] Add statistics
