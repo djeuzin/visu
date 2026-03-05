@@ -4,7 +4,9 @@ Visu is a simple library to visualize sorting algorithms in C directly on the te
 
 ## Usage
 
-Currently, visu supports visualization for in-place sorting algorithms. Copy the files in ```src``` to your local folder and include the library: 
+Clone the repository and run `make build` to generate `visu.o`, the library to link to your own programs.
+
+Additionally by running `make test`, a demo of the project will be run.
 
 ```C
 #include "visu.h"
