@@ -4,10 +4,10 @@ CC = gcc
 build: visu.o
 
 visu.o: src/visu.h
-	gcc -c src/visu.c -o visu.o
+	$(CC) -c src/visu.c -o visu.o
 
 test: visu.o
-	gcc test/main.c visu.o -o test/main
+	$(CC) test/main.c visu.o -o test/main
 	./test/main
 
 clean:
